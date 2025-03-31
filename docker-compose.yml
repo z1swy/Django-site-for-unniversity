@@ -1,0 +1,33 @@
+version: "3.4"
+services:
+  api:
+    container_name: knitu-tech-backend
+    image: knitu-backend
+    build:
+      context: .
+    ports:
+      - "8000:8000"
+    command: "api"
+    environment:
+      PYTHONUNBUFFERED: 1
+      SERVICE_DB_HOST: service_db
+      SERVICE_DB_NAME: postgres
+      SERVICE_DB_USERNAME: postgres
+    volumes:
+      - .:/opt
+  consumer:
+    container_name: knitu-tech-backend_consumer
+    image: knitu-backend
+    build:
+      context: .
+    command: "consumer"
+    environment:
+      PYTHONUNBUFFERED: 1
+     #SERVICE_DB_HOST: service_db
+      #SERVICE_DB_NAME: postgres
+      #SERVICE_DB_USERNAME: postgres
+      EVENT_BROKER_HOST: mq
+      EVENT_BROKER_PORT: 5672
+      EVENT_BROKER_USERNAME: knitu-backend
+    volumes:
+      - .:/opt

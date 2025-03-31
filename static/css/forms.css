@@ -1,0 +1,18 @@
+.submit-row a.deletelink {
+    display: block;
+    background: var(--delete-button-bg);
+    border-radius: 4px;
+    padding: 0.625rem 0.9375rem;
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    color: var(--button-fg);
+}
+.submit-row a.deletelink {
+    display: block;
+    background: var(--delete-button-bg);
+    border-radius: 4px;
+    padding: 0.625rem 0.9375rem;
+    height: 0.9375rem;
+    line-height: 0.9375rem;
+    color: var(--button-fg);
+}

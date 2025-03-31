@@ -1,0 +1,81 @@
+#header{
+    background: #bd0000;
+    font-family: "rukoRegular";
+}
+h1 {
+    /*color: #fce400;*/
+    font-family: "rukoRegular";
+}
+#breadcrumbs{
+    background: #850101;
+
+}
+
+a:link, a:visited{
+    font-family: "rukoRegular";
+}
+
+div.breadcrumbs, .module caption {
+    background: #850101;
+}
+
+
+a.section:link, a.section:visited{
+    font-family: "rukoRegular";
+}
+
+ .theme-toggle svg.theme-icon-when-auto, .theme-toggle svg.theme-icon-when-dark, .theme-toggle svg.theme-icon-when-light{
+     color: #bd0000;
+ }
+ .submit-row input.default{
+     background:#850101;
+     color: Yellow;
+ }
+.button, input[type=submit], input[type=button], .submit-row input, a.button{
+    background:#850101;
+    color: Yellow;
+    font-family: "rukoRegular";
+}
+
+/*#content-related .module h2  {*/
+/*    background: #850101;*/
+/*    font-family: "rukoRegular";*/
+/*}*/
+#content-related .module h3{
+    font-family: "rukoRegular";
+}
+
+
+#nav-sidebar{
+    scrollbar-width: auto;
+    scrollbar-color: #730000 black;
+}
+body::-webkit-scrollbar {
+  width: auto;
+}
+
+body::-webkit-scrollbar-track {
+  background: black;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #850101;
+  border-radius: 20px;
+  border: 3px solid #050c26;
+}
+
+.login .form-row #id_username, .login .form-row #id_password {
+    background: #850101;
+    color:Yellow;
+}
+
+.quiet, a.quiet:link, a.quiet:visited{
+    font-family: "rukoRegular";
+}
+
+@font-face {
+  font-family: "rukoRegular";
+  src: url("ofont.ru_Nunito.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}

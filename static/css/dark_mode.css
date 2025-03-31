@@ -1,0 +1,33 @@
+html[data-theme="dark"] {
+
+
+    --primary: #000000;
+    --primary-fg: #ffffff;
+
+    --body-fg: #ffffff;
+    --body-bg: #121212;
+    --body-quiet-color: #ffffff;
+    --body-loud-color: #ffffff;
+
+    --breadcrumbs-link-fg: #ffffff;
+    /*--breadcrumbs-bg: Red,brown,yellow,black;*/
+
+    --link-fg: #ffffff;
+    --link-hover-color: #fff400;
+    --link-selected-fg: #fc2828;
+
+    --hairline-color: #700000;
+    --border-color: #353535;
+
+    --error-fg: #ff0000;
+    --message-success-bg: #006b1b;
+    --message-warning-bg: #583305;
+    --message-error-bg: #570808;
+
+    --darkened-bg: #130000;
+    --selected-bg: #1b1b1b;
+    --selected-row: #3b0000;
+
+    --close-button-bg: #7e0000;
+    --close-button-hover-bg: #ff0000;
+}
